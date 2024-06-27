@@ -12,7 +12,7 @@ class UserController {
         try {
             // let taxiCreate = await enquirySchema.create(body);
             // let response = await enquirySchema.findByPk(taxiCreate.id);
-            sendEmail(body.country_code,body.email,body.firstName,body.phone,body.message,body.selectedPlan);
+            sendEmail(body.countryCode,body.email,body.firstName,body.phone,body.message,body.selectedPlan);
             return {
                 status: "success", msg:"Mail Sent successfully"
             }
