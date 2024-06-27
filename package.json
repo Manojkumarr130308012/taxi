@@ -1,0 +1,28 @@
+{
+  "name": "kttelematic",
+  "version": "1.0.0",
+  "description": "Node js rest api express ,sequelize & postgresql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "postgresql",
+    "sequelize",
+    "rest",
+    "api"
+  ],
+  "author": "Manoj",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.7",
+    "nodemon": "3.1.0",
+    "sequelize": "^6.37.3"
+  }
+}
